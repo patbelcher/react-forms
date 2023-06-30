@@ -1,22 +1,17 @@
-import logo from './logo.svg';
+import ControlledComponenets from './components/ControlledComponents';
 import './App.css';
+import FormSubmit from './components/FormSubmit';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       <h1>Forms in React</h1>
+       <p>There are many ways to deal with forms in React.
+        Here are two common ones.
+       </p>
+       <ControlledComponenets />
+       <FormSubmit/>
       </header>
     </div>
   );
